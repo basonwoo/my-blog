@@ -8,8 +8,8 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "C:/Users/viruser.v-desktop/AppData/Roaming/npm/vuepress dev docs",
-    "build": "C:/Users/viruser.v-desktop/AppData/Roaming/npm/vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "dependencies": {
     "vuepress": "1.0.3",
