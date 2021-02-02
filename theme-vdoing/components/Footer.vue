@@ -21,12 +21,12 @@
       target="_blank"
       title="本站主题"
     >Vdoing</a>
-    <template v-if="footer">
+    <!-- <template v-if="footer">
       | Copyright © {{ footer.createYear }}-{{ new Date().getFullYear() }}
       <span
         v-html="footer.copyrightInfo"
       ></span>
-    </template>
+    </template> -->
   </div>
 </template>
 
