@@ -1,17 +1,19 @@
-const themeConfig = require('./config/theme/')
+const head = require('./config/head.js');
+const plugins = require('./config/plugins.js');
+const themeConfig = require('./config/themeConfig.js');
 
 module.exports = {
-    title: "bason's blog",
-    description: 'Code Life.',
-    dest: 'public',
-    head: [
-        ['link', { rel: 'icon', href: '/favicon.ico' }],
-        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
-    ],
-    theme: 'reco',
-    themeConfig,
-    markdown: {
-        lineNumbers: true
-    },
-    plugins: ['@vuepress/medium-zoom', 'flowchart']
-}  
+  theme: 'vdoing', // 使用依赖包主题
+  // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
+
+  title: "basonwoo's blog",
+  description: '',
+  // base: '/', // 格式：'/<仓库名>/'， 默认'/'
+  markdown: {
+    lineNumbers: true, // 代码行号
+  },
+
+  head,
+  plugins,
+  themeConfig,
+}
