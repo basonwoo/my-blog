@@ -1,14 +1,11 @@
 {
-  "name": "vuepress-theme-vdoing",
-  "version": "1.7.2",
-  "description": "Vdoing theme for VuePress. 一个基于VuePress的知识管理兼博客主题。",
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "bason's blog",
   "author": {
-    "name": "gaoyi(Evan) Xu"
+    "name": "Bason Woo"
   },
-  "homepage": "https://github.com/xugaoyi/vuepress-theme-vdoing#readme",
-  "bugs": {
-    "url": "https://github.com/xugaoyi/vuepress-theme-vdoing/issues"
-  },
+  "homepage": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xugaoyi/vuepress-theme-vdoing.git"
@@ -41,7 +38,7 @@
   "license": "MIT",
   "main": "index.js",
   "maintainers": [{
-    "name": "Evan xu",
-    "email": "894072666@qq.com"
+    "name": "Bason Woo",
+    "email": "basonwoo0908@gmail.com"
   }]
 }

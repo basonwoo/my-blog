@@ -3,21 +3,21 @@ title: Vue中的DOM Diff算法
 date: 2021-02-02 16:30:00
 permalink: /pages/8309a5b876fc95e3
 categories: 
-  - 页面
-  - HTML
+  - Vue
 tags: 
-  - null
+  - Diff算法
 author: 
   name: basonwoo
-  link: https://github.com/basonwoo
 ---
 
 ### 引言
 
-在现代前端框架中，Virtual DOM几乎成了标配，通过  VDOM 我们可以实现对真实 DOM 的最少操作，从而提升页面的性能。
+在现代前端框架中，Virtual DOM几乎成了标配，通过 VDOM 我们可以实现对真实 DOM 的最少操作，从而提升页面的性能。
+
+![Virtual DOM](/img/diff_1.jpg)
 
 ### Vue
-Vue 的 Diff 借鉴了 snabbdom[https://github.com/snabbdom/snabbdom/blob/v0.7.3/src/snabbdom.ts#L179]
+Vue 的 Diff 借鉴了 [snabbdom](https://github.com/snabbdom/snabbdom/blob/v0.7.3/src/snabbdom.ts#L179)
 
 假设我们需要由【A、B、C、D、E、F、G】转换为【D、A、G、F、K、E】
 
