@@ -78,7 +78,7 @@ module.exports = [
       hm: '503f098e7e5b3a5b5d8c5fc2938af002',
     },
   ],
-  [
+  /*[
     'vuepress-plugin-comment', // 评论
     {
       choosen: 'gitalk',
@@ -97,7 +97,7 @@ module.exports = [
           '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
       },
     },
-  ],
+  ],*/
   [
     '@vuepress/last-updated', // "上次更新"时间格式
     {

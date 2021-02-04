@@ -1,5 +1,5 @@
 ---
-title: Vue中的DOM Diff算法
+title: Vue 中的 DOM Diff 算法
 date: 2021-02-02 16:30:00
 permalink: /pages/8309a5b876fc95e3
 categories: 
