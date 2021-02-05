@@ -10,6 +10,16 @@ module.exports = [
     ],
   },
   {
+    text: "面试",
+    link: "/interview/",
+    items: [
+      {
+        text: "事件循环",
+        link: "/pages/event-loop/",
+      },
+    ],
+  },
+  {
     text: "其他",
     link: "/other/",
     items: [
