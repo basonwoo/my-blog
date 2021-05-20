@@ -10,6 +10,16 @@ module.exports = [
     ],
   },
   {
+    text: "JavaScript",
+    link: "/javascript/",
+    items: [
+      {
+        text: "JavaScript中的作用域链与闭包",
+        link: "/pages/js-closure/",
+      },
+    ],
+  },
+  {
     text: "面试",
     link: "/interview/",
     items: [
