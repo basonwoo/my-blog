@@ -20,6 +20,16 @@ module.exports = [
     ],
   },
   {
+    text: "CSS",
+    link: "/css/",
+    items: [
+      {
+        text: "CSS Trick 弹跳卡片的实现",
+        link: "/pages/6c307b/",
+      },
+    ],
+  },
+  {
     text: "面试",
     link: "/interview/",
     items: [
