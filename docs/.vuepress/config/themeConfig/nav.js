@@ -37,6 +37,10 @@ module.exports = [
         text: "Jenkins 实现基于 Github 的自动化部署",
         link: "/pages/auto-deploy/",
       },
+      {
+        text: "为网站添加 https",
+        link: "/pages/a7a643/",
+      },
     ],
   },
   { text: "关于", link: "/about/" },
