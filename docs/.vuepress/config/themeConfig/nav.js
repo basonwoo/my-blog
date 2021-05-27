@@ -41,6 +41,10 @@ module.exports = [
         text: "为网站添加 https",
         link: "/pages/a7a643/",
       },
+      {
+        text: "部署自己的图床",
+        link: "/pages/b8325c/",
+      },
     ],
   },
   { text: "关于", link: "/about/" },
