@@ -16,17 +16,17 @@ CloudFlare 是一个免费的线上托管服务，首先注册会员，然后到
 要想 CloudFlare 托管自己的网站，需要在域名后台将 dns 改为 CloudFlare 的 dns 服务器
 
 
-![cloudflare](http://120.48.17.92:5120/uploads/big/4f28da7c672b219b38476444cfdd70a4.jpg)
+![cloudflare](https://basonwoo-blog.oss-cn-hangzhou.aliyuncs.com/img/Snipaste_2021-05-27_11-27-25.jpg)
 
-![修改dns](http://120.48.17.92:5120/uploads/big/bc97a47aab0e2d159b8b991748d870d3.jpg)
+![修改dns](https://basonwoo-blog.oss-cn-hangzhou.aliyuncs.com/img/Snipaste_2021-05-27_14-08-08.jpg)
 
 等待生效
 
-![](http://120.48.17.92:5120/uploads/big/470d89f174873d8b851b5ef10bf2879f.jpg)
+![](https://basonwoo-blog.oss-cn-hangzhou.aliyuncs.com/img/Snipaste_2021-05-27_14-10-25.jpg)
 
 生成证书
 
-![](http://120.48.17.92:5120/uploads/big/2428ae08c2c56f5ca0b896e148ad35cd.jpg)
+![](https://basonwoo-blog.oss-cn-hangzhou.aliyuncs.com/img/Snipaste_2021-05-27_14-03-59.jpg)
 
 在 nginx 目录下新建 cert 文件夹，将 .pem 和 .key 后缀的文件上传到该文件夹
 
@@ -57,4 +57,4 @@ server {
 
 搞定
 
-![](http://120.48.17.92:5120/uploads/big/e73160c5f8ca48225242a8f0d6a48259.jpg)
+![](https://basonwoo-blog.oss-cn-hangzhou.aliyuncs.com/img/Snipaste_2021-05-27_14-24-41.jpg)
