@@ -10,13 +10,13 @@ tags:
 
 下午在逛 [CSS-Tricks](https://css-tricks.com/) 官网的时候看见这种滑动效果，模仿练习一下。
 
-![](http://120.48.17.92:5120/uploads/big/a0003d7f71fb83c5a4019aa3472f238b.gif)
+![](https://basonwoo-blog.oss-cn-hangzhou.aliyuncs.com/img/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B62021-05-27-16.37.05.gif)
 
 ### 基础部分
 
 打开 CodePen 编辑器，完成基础布局
 
-![](http://120.48.17.92:5120/uploads/big/0ea75c882fc7a439e86d02b341d8aeb0.jpg)
+![](https://basonwoo-blog.oss-cn-hangzhou.aliyuncs.com/img/Snipaste_2021-05-27_17-51-37.jpg)
 
 ### 动画原理
 
@@ -28,15 +28,15 @@ tags:
 
 ### 动画效果实现
 
-![](http://120.48.17.92:5120/uploads/big/7f0d0457cda10eae89192d289dadfe18.jpg)
+![](https://basonwoo-blog.oss-cn-hangzhou.aliyuncs.com/img/Snipaste_2021-05-27_18-05-06.jpg)
 
-![](http://120.48.17.92:5120/uploads/big/498912df973eadc43705cdd5f223e0e1.gif)
+![](https://basonwoo-blog.oss-cn-hangzhou.aliyuncs.com/img/2021-05-27-18.06.12.gif)
 
 ### 优化
 
 可以看到动画是有些僵硬的，加上缓动属性 `transition`
 
-![](http://120.48.17.92:5120/uploads/big/a09069f20b90b7aedb2a7324800bd922.gif)
+![](https://basonwoo-blog.oss-cn-hangzhou.aliyuncs.com/img/2021-05-27-18.09.52.gif)
 
 ### DONE!
 
