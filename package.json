@@ -3,10 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "editFm": "node utils/editFrontmatter.js",
-    "publish": "cd theme-vdoing && npm publish && cd ../ && npm run updateTheme",
-    "updateTheme": "npm uninstall vuepress-theme-vdoing && rm -rf node_modules && npm i && npm i vuepress-theme-vdoing -D"
+    "build": "vuepress build docs"
   },
   "license": "MIT",
   "devDependencies": {
