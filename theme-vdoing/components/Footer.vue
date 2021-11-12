@@ -16,10 +16,9 @@
 
     <template v-if="footer">
       | Copyright © {{ footer.createYear }}-{{ new Date().getFullYear() }}
-      <span
-        v-html="footer.copyrightInfo"
-      ></span>
+      <a href="https://beian.miit.gov.cn" target="_blank">{{ footer.copyrightInfo }}</a>
     </template>
+    12312321412321
   </div>
 </template>
 

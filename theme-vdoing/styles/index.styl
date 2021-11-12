@@ -97,6 +97,15 @@ body .search-box
   height 100vh
   display none
 
+.sidebar-hover-trigger
+  display none
+  position: fixed
+  z-index 12
+  top ($navbarHeight + 4.5rem)
+  left 0
+  bottom 0
+  width 24px
+
 .sidebar
   font-size 16px
   background-color var(--sidebarBg)
@@ -188,6 +197,7 @@ h1, h2, h3, h4, h5, h6
       + p, + pre, + .custom-block
         margin-top 2rem
 
+  &:focus .header-anchor,
   &:hover .header-anchor
     opacity: 1
 
@@ -221,6 +231,7 @@ a.header-anchor
   margin-top 0.125em
   opacity 0
 
+  &:focus,
   &:hover
     text-decoration none
 

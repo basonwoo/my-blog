@@ -79,7 +79,7 @@ module.exports = {
   footer: {
     // 页脚信息
     createYear: 2020, // 博客创建年份
-    copyrightInfo: "| 浙ICP备2021014478号-1", // 博客版权信息，支持a标签
+    copyrightInfo: " | <a href='https://beian.miit.gov.cn' target='_blank'>浙ICP备2021014478号-1</a>",
   },
   htmlModules, // 插入hmtl(广告)模块
 };
