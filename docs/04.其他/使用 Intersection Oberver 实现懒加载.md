@@ -1,9 +1,9 @@
 ---
-title: 使用 Intersection Oberver 实现懒加载
+title: 使用 Intersection Observer 实现懒加载
 date: 2022-02-13 15:48:24
 permalink: /pages/799744/
 categories:
-  - 其他
+  - JavaScript
 tags:
   - 
 ---

@@ -14,8 +14,16 @@ module.exports = [
     link: "/javascript/",
     items: [
       {
-        text: "JavaScript中的作用域链与闭包",
+        text: "JavaScript 中的作用域链与闭包",
         link: "/pages/js-closure/",
+      },
+      {
+        text: "使用 Intersection Observer 实现懒加载",
+        link: "/pages/799744/",
+      },
+      {
+        text: "使用 MutationObserver 跟踪DOM变化",
+        link: "/pages/404938/",
       },
     ],
   },
@@ -57,5 +65,5 @@ module.exports = [
       },
     ],
   },
-  { text: "关于", link: "/about/" },
+  // { text: "关于", link: "/about/" },
 ];
